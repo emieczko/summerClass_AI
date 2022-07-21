@@ -17,11 +17,11 @@ class register:
         print("")
 
 class student:
-    def __init__(self, name, age, grade, adress):
+    def __init__(self, name, age, grade, address):
         self.name = name
         self.age = age
         self.grade = grade
-        self.address = adress
+        self.address = address
     
     def studentFunc(self):
         print(self.name, "is", self.age, "years old, in grade", self.grade + ", and lives on",self.address)

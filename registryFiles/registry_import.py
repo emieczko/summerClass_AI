@@ -1,4 +1,4 @@
-import registry
+import registryFiles.registry as registry
 
 student1 = registry.student("bob",9,"3","177 test street")
 student1.studentFunc()
